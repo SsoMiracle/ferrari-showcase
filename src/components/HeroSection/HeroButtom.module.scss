@@ -1,0 +1,45 @@
+.heroBtn {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 33px;
+
+  border-radius: 999px;
+  background: white;
+  color: black;
+
+  font-size: 15px;
+  letter-spacing: 0.2em;
+}
+
+.heroBtn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: #d40000;
+
+  transform: scaleX(0);
+  transform-origin: left;
+
+  transition: transform 0.3s ease;
+
+  border-radius: inherit; /* ⭐ ВОТ ЭТО ФИКСИТ КВАДРАТ */
+  z-index: 0;
+}
+
+.heroBtn:hover::before {
+  transform: scaleX(1);
+}
+
+.heroBtn_text {
+  position: relative;
+  z-index: 1;
+}
+
+.heroBtn:hover .heroBtn_text {
+  color: white;
+}
