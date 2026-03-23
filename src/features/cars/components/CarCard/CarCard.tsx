@@ -10,7 +10,6 @@ interface Props {
 
 function CarCard({ car }: Props) {
   const [currentImage, setCurrentImage] = useState(0);
-  const [added, setAdded] = useState(false);
   const [dragOffset, setDragOffset] = useState(0);
   const dispatch = useAppDispatch();
   const dragging = useRef(false);
@@ -18,7 +17,7 @@ function CarCard({ car }: Props) {
   const dragOffsetRef = useRef(0);
   const isHovered = useRef(false);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
-  const cooldownRef = useRef(false); // 🔥 ключевой фикс
+  const cooldownRef = useRef(false);
 
   // ================= AUTOPLAY =================
 
@@ -60,7 +59,7 @@ function CarCard({ car }: Props) {
     dragging.current = true;
     dragStart.current = e.clientX;
 
-    stopSlider(); // 🔥 стопаем autoplay сразу
+    stopSlider();
   };
 
   const handleMouseEnter = () => {
@@ -197,12 +196,6 @@ function CarCard({ car }: Props) {
                 e.preventDefault();
 
                 dispatch(addToCart(car.id));
-
-                setAdded(true);
-
-                setTimeout(() => {
-                  setAdded(false);
-                }, 1200);
               }}
               className="
   relative
