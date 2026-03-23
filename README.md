@@ -108,6 +108,18 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ### Frontend
 
+This project was built as a portfolio piece to demonstrate:
+
+Full-stack application architecture
+Advanced state management
+UI/UX attention to detail
+Real-world development patterns
+
+👤 Author
+
+Alex Hladkikh
+
 ```bash
 npm install
 npm run dev
+
