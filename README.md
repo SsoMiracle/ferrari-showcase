@@ -1,6 +1,6 @@
 # Ferrari Showcase
 
-Live Demo: https://ferrari-showcase-dkwp-6mh3b7rok-shurikaglug-4489s-projects.vercel.app
+👉 Live Demo: https://ferrari-showcase-dkwp-6mh3b7rok-shurikaglug-4489s-projects.vercel.app
 
 A premium full-stack web application inspired by Ferrari design philosophy.
 
@@ -8,9 +8,9 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-##  Features
+## ✨ Features
 
-###  Authentication & Security
+### 🔐 Authentication & Security
 - JWT-based authentication (login / registration)
 - Protected routes (frontend + backend)
 - Token validation via middleware
@@ -19,7 +19,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-###  Cart System
+### 🛒 Cart System
 - Add / remove products
 - Quantity management
 - Cart persistence via localStorage
@@ -28,7 +28,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-###  Car Catalog
+### 🚗 Car Catalog
 - Interactive Ferrari car catalog
 - Dynamic routing for car details pages
 - Image sliders with drag support
@@ -36,7 +36,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-###  UI / UX (Ferrari-inspired)
+### 🎨 UI / UX (Ferrari-inspired)
 - Minimalistic premium design (black / red palette)
 - Responsive layout for all screen sizes
 - Micro-interactions (hover, press, feedback)
@@ -45,7 +45,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-###  Frontend Architecture
+### ⚙️ Frontend Architecture
 - Feature-based folder structure
 - Reusable UI components
 - Centralized state management (Redux Toolkit)
@@ -54,7 +54,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-###  Backend (Node.js / Express)
+### 🔄 Backend (Node.js / Express)
 - REST API architecture
 - JWT authentication
 - Middleware-based request handling
@@ -64,7 +64,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-##  Technical Highlights
+## 🧠 Technical Highlights
 
 - Proper cart hydration logic (prevents race conditions)
 - Separation of concerns (UI / logic / API)
@@ -74,7 +74,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-##  Tech Stack
+## 🛠 Tech Stack
 
 ### Frontend
 - React
@@ -90,7 +90,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 <p align="center">
   <img src="./src/assets/screenshots/Home.png" width="45%" />
@@ -104,9 +104,11 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### Frontend
+
+📌 Notes
 
 This project was built as a portfolio piece to demonstrate:
 
@@ -122,4 +124,3 @@ Alex Hladkikh
 ```bash
 npm install
 npm run dev
-
