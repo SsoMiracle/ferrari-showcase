@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    overflow-y: scroll; /* резервирует место под scrollbar */
+    overflow-y: scroll;
   }
 
   body {
@@ -41,18 +41,18 @@ input:-webkit-autofill:focus {
   transition: all 0.25s ease;
 }
 
-/* hover — легкий подъем */
+
 .btn-premium:hover {
   transform: translateY(-2px) scale(1.02);
   box-shadow: 0 10px 30px rgba(255, 0, 0, 0.25);
 }
 
-/* active — "нажатие" */
+
 .btn-premium:active {
   transform: scale(0.97);
 }
 
-/* ripple эффект */
+
 .btn-premium::after {
   content: "";
   position: absolute;
@@ -74,7 +74,7 @@ input:-webkit-autofill:focus {
   transform: scale(2.5);
 }
 
-/* subtle shine (Ferrari feel) */
+
 .btn-premium::before {
   content: "";
   position: absolute;

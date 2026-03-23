@@ -48,9 +48,9 @@ function CarDetailsPage() {
         </div>
       </div>
 
-      {/* 🔥 CONTENT */}
+      {/* CONTENT */}
       <div className="max-w-[1400px] mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16">
-        {/* 📸 ГАЛЕРЕЯ */}
+        {/* gallery */}
         <div className="space-y-6">
           <div className="overflow-hidden rounded-xl">
             <img
@@ -73,7 +73,7 @@ function CarDetailsPage() {
           </div>
         </div>
 
-        {/* 📊 INFO */}
+        {/* INFO */}
         <div className="flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-semibold mb-8">Specifications</h2>
@@ -101,7 +101,7 @@ function CarDetailsPage() {
             </div>
           </div>
 
-          {/* 💰 PRICE + CTA */}
+          {/* PRICE + CTA */}
           <div className="mt-16">
             <h2 className="text-5xl font-bold mb-8">
               €{car.price.toLocaleString()}

@@ -6,7 +6,7 @@ import { cars } from "../cars/data/cars";
 export const selectCartIds = (state: RootState) => state.cart.ids;
 export const selectCartItems = (state: RootState) => state.cart.items;
 
-// 🔥 продукты корзины
+// 🔥 Products
 export const selectCartProducts = createSelector(
   [selectCartIds, selectCartItems],
   (ids, items) => {
@@ -39,7 +39,7 @@ export const selectCartTotal = createSelector(
   },
 );
 
-// 🔥 количество товаров
+// 🔥 quantity
 export const selectCartItemsCount = createSelector(
   [selectCartItems],
   (items) => {

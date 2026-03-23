@@ -143,7 +143,7 @@ function Navbar() {
         </div>
       </div>
 
-      {/* RIGHT SIDE (absolute как у Ferrari) */}
+      {/* RIGHT SIDE*/}
       <div className="absolute top-[31px] right-10 flex items-center gap-8 text-[18px]">
         <div className="w-[20px] h-[20px] flex items-center justify-center">
           {(isNavigating && <Loader />) || (isLoading && <Loader />)}

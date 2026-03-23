@@ -97,14 +97,14 @@ function CarCard({ car }: Props) {
         setCurrentImage((prev) => (prev + 1) % car.images.length);
       }
 
-      // 🔥 возврат
+      //  возврат
       setDragOffset(0);
 
       dragging.current = false;
       dragStart.current = null;
       dragOffsetRef.current = 0;
 
-      resetTimer(); // 🔥 теперь работает правильно
+      resetTimer(); //
     };
 
     window.addEventListener("mousemove", handleMove);

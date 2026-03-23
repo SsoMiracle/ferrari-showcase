@@ -28,7 +28,7 @@ import purosangue_2 from "../../../assets/cars/purosangue_2.jpg";
 export interface Car {
   id: number;
   name: string;
-  model: string; // 🔥 НОВОЕ
+  model: string; //
   year: number;
   mileage: number;
   price: number;

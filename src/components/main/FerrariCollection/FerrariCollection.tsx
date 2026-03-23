@@ -28,7 +28,7 @@ function FerrariCollection() {
     setAppliedFilters(draftFilters);
   };
 
-  // 🔥 динамические фильтры
+  // 🔥 dynamic filters
   const modelOptions = [
     { label: "MODEL", value: "ALL" },
     ...Array.from(new Set(cars.map((car) => car.model))).map((model) => ({
@@ -47,7 +47,7 @@ function FerrariCollection() {
       })),
   ];
 
-  // 🔥 нормальная фильтрация
+  // 🔥        filtration 
   const filteredCars: Car[] = cars.filter((car) => {
     if (appliedFilters.model !== "ALL" && car.model !== appliedFilters.model) {
       return false;
