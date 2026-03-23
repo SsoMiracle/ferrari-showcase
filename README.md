@@ -74,7 +74,7 @@ This project represents a luxury car catalog with authentication, protected rout
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React
