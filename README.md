@@ -1,6 +1,6 @@
 # Ferrari Showcase
 
-👉 Live Demo: https://ferrari-showcase-dkwp-6mh3b7rok-shurikaglug-4489s-projects.vercel.app
+👉 Live Demo: ferrari-showcase.vercel.app
 
 A premium full-stack web application inspired by Ferrari design philosophy.
 
