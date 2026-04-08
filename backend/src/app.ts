@@ -5,12 +5,14 @@ import carRoutes from "./routes/cars.routes";
 
 const app = express();
 
-app.use(
-  cors({
-    origin: ["https://ferrari-showcase-dkwp.vercel.app"],
-    credentials: true,
-  }),
-);
+// app.use(
+//   cors({
+//     origin: ["https://ferrari-showcase-dkwp.vercel.app"],
+//     credentials: true,
+//   }),
+// );
+
+app.use(cors());
 
 app.use(express.json());
 
