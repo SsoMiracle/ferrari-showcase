@@ -1,6 +1,7 @@
 # Ferrari Showcase
 
-👉 Live Demo: ferrari-showcase.vercel.app
+## 🚀 Live Demo
+👉 https://ferrari-showcase.vercel.app
 
 A premium full-stack web application inspired by Ferrari design philosophy.
 
@@ -107,6 +108,13 @@ This project represents a luxury car catalog with authentication, protected rout
 ## ⚙️ Installation
 
 ### Frontend
+npm install
+npm run dev
+
+### Backend
+cd backend
+npm install
+npm run dev
 
 📌 Notes
 
@@ -120,7 +128,3 @@ Real-world development patterns
 👤 Author
 
 Alex Hladkikh
-
-```bash
-npm install
-npm run dev
